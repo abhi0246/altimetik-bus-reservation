@@ -1,0 +1,3 @@
+insert into BUS_DETAILS(BUS_NUMBER, OPERATER_NAME, DEPARCHER_TIME, ARRIVAL_TIME, SOURCE_CITY, DESTINATION_CITY, PRICE)
+ values(101, 'RedBus', '2020-06-28', '2020-06-29', 'Patna', 'Chenai', 1000 ),
+ 		(102, 'Orange Bus', '2020-06-28', '2020-06-30', 'Patna', 'Chenai', 500 );
