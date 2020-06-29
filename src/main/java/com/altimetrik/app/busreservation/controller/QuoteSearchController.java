@@ -15,6 +15,8 @@ import com.altimetrik.app.busreservation.controller.dto.QuoteSearchCriteria;
 import com.altimetrik.app.busreservation.controller.dto.QuoteSearchResults;
 import com.altimetrik.app.busreservation.service.QuoteSearchService;
 
+import io.swagger.annotations.Api;
+@Api
 @RestController
 @RequestMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
 public class QuoteSearchController {
